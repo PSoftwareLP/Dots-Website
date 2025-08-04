@@ -3,21 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>DOTS GAME</title>
-  <style>
-    <link rel="stylesheet" href="style.css">
-    iframe { max-width: 100%; height: auto; border: none; }
-    .container { max-width: 800px; margin: auto; }
-  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Optional: Google Font and Font Awesome (if you want icons later) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
     <h1>Mein Indie Game Trailer</h1>
-    <iframe width="800" height="450"
-      src="https://www.youtube-nocookie.com/embed/s3kn0URUiWs"
-      allow="accelerometer; autoplay; clipboard‑write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-    <p></p>
+
+    <!-- Responsive YouTube wrapper -->
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/s3kn0URUiWs"
+        title="DOTS Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p>Hier ein erster Trailer zu meinem Spiel – viel Spaß!</p>
   </div>
 </body>
 </html>
